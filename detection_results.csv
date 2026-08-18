@@ -1,0 +1,4 @@
+severity,detection,source_ip,username,event_count,first_seen,last_seen,reason
+HIGH,Potential brute-force attack,10.10.10.55,administrator,12,2026-08-18 10:05:00,2026-08-18 10:08:18,12 failed logins within 10 minutes
+MEDIUM,Possible password spraying,172.16.5.99,"administrator,alex,guest,jamie,morgan,taylor",6,2026-08-18 10:50:00,2026-08-18 10:52:05,One source IP attempted authentication against 6 usernames
+CRITICAL,Successful login after repeated failures,10.10.10.55,administrator,12,2026-08-18 10:05:00,2026-08-18 10:10:00,Successful login followed 12 failures from the same IP/user

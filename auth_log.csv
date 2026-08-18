@@ -1,0 +1,55 @@
+timestamp,host,username,source_ip,status,event_id,logon_type,message
+2026-08-18 09:08:01,WIN11-LAB,alex,192.168.1.20,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 09:12:55,WIN11-LAB,alex,192.168.1.20,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 09:14:14,WIN11-LAB,alex,192.168.1.20,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 09:29:43,WIN11-LAB,morgan,192.168.1.22,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 09:35:15,WIN11-LAB,morgan,192.168.1.22,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 09:35:32,WIN11-LAB,taylor,192.168.1.23,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 09:39:13,WIN11-LAB,morgan,192.168.1.22,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 09:40:44,WIN11-LAB,taylor,192.168.1.23,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 09:40:50,WIN11-LAB,taylor,192.168.1.23,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 09:43:34,WIN11-LAB,jamie,192.168.1.21,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 09:45:32,WIN11-LAB,alex,192.168.1.20,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 10:02:14,WIN11-LAB,jamie,192.168.1.21,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 10:05:00,WIN11-LAB,administrator,10.10.10.55,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:05:18,WIN11-LAB,administrator,10.10.10.55,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:05:36,WIN11-LAB,administrator,10.10.10.55,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:05:54,WIN11-LAB,administrator,10.10.10.55,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:06:12,WIN11-LAB,administrator,10.10.10.55,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:06:30,WIN11-LAB,administrator,10.10.10.55,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:06:48,WIN11-LAB,administrator,10.10.10.55,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:07:06,WIN11-LAB,administrator,10.10.10.55,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:07:24,WIN11-LAB,administrator,10.10.10.55,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:07:42,WIN11-LAB,administrator,10.10.10.55,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:08:00,WIN11-LAB,administrator,10.10.10.55,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:08:18,WIN11-LAB,administrator,10.10.10.55,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:10:00,WIN11-LAB,administrator,10.10.10.55,SUCCESS,4624,3,Successful network logon following repeated failures
+2026-08-18 10:14:05,WIN11-LAB,jamie,192.168.1.21,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 10:15:53,WIN11-LAB,morgan,192.168.1.22,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 10:27:07,WIN11-LAB,morgan,192.168.1.22,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 10:33:10,WIN11-LAB,morgan,192.168.1.22,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 10:37:06,WIN11-LAB,morgan,192.168.1.22,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 10:37:17,WIN11-LAB,taylor,192.168.1.23,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 10:37:17,WIN11-LAB,jamie,192.168.1.21,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 10:38:24,WIN11-LAB,taylor,192.168.1.23,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 10:42:17,WIN11-LAB,alex,192.168.1.20,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 10:49:57,WIN11-LAB,taylor,192.168.1.23,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 10:50:00,WIN11-LAB,alex,172.16.5.99,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:50:25,WIN11-LAB,jamie,172.16.5.99,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:50:50,WIN11-LAB,morgan,172.16.5.99,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:51:15,WIN11-LAB,taylor,172.16.5.99,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:51:40,WIN11-LAB,administrator,172.16.5.99,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:52:05,WIN11-LAB,guest,172.16.5.99,FAILURE,4625,3,Failed network logon - bad username or password
+2026-08-18 10:56:00,WIN11-LAB,morgan,192.168.1.22,FAILURE,4625,2,Failed logon - incorrect password
+2026-08-18 11:07:25,WIN11-LAB,taylor,192.168.1.23,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 11:09:38,WIN11-LAB,alex,192.168.1.20,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 11:17:07,WIN11-LAB,taylor,192.168.1.23,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 11:21:55,WIN11-LAB,alex,192.168.1.20,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 11:25:56,WIN11-LAB,morgan,192.168.1.22,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 11:30:17,WIN11-LAB,alex,192.168.1.20,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 11:34:16,WIN11-LAB,alex,192.168.1.20,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 11:43:07,WIN11-LAB,alex,192.168.1.20,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 11:46:44,WIN11-LAB,taylor,192.168.1.23,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 11:51:17,WIN11-LAB,alex,192.168.1.20,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 11:53:47,WIN11-LAB,alex,192.168.1.20,SUCCESS,4624,2,Successful interactive logon
+2026-08-18 12:00:04,WIN11-LAB,alex,192.168.1.20,SUCCESS,4624,2,Successful interactive logon

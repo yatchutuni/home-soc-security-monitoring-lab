@@ -1,0 +1,7 @@
+username,success_count,failure_count,unique_source_ips
+administrator,1,13,2
+alex,13,1,2
+guest,0,1,1
+jamie,4,1,2
+morgan,8,2,2
+taylor,9,1,2

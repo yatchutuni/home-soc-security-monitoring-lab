@@ -1,0 +1,39 @@
+HOME SOC SECURITY MONITORING LAB - INCIDENT SUMMARY
+==========================================================
+Total authentication events analyzed: 54
+Successful logins: 35
+Failed logins: 19
+Detections: 3
+Critical: 1 | High: 1 | Medium: 1
+
+FINDINGS
+----------------------------------------------------------
+1. [HIGH] Potential brute-force attack
+   Source IP: 10.10.10.55
+   Username(s): administrator
+   First seen: 2026-08-18 10:05:00
+   Last seen: 2026-08-18 10:08:18
+   Reason: 12 failed logins within 10 minutes
+
+2. [MEDIUM] Possible password spraying
+   Source IP: 172.16.5.99
+   Username(s): administrator,alex,guest,jamie,morgan,taylor
+   First seen: 2026-08-18 10:50:00
+   Last seen: 2026-08-18 10:52:05
+   Reason: One source IP attempted authentication against 6 usernames
+
+3. [CRITICAL] Successful login after repeated failures
+   Source IP: 10.10.10.55
+   Username(s): administrator
+   First seen: 2026-08-18 10:05:00
+   Last seen: 2026-08-18 10:10:00
+   Reason: Successful login followed 12 failures from the same IP/user
+
+RECOMMENDED REMEDIATION
+----------------------------------------------------------
+1. Investigate the source IPs and affected accounts.
+2. Reset credentials if compromise is suspected.
+3. Enable multi-factor authentication where available.
+4. Configure account lockout/rate limiting.
+5. Block or restrict malicious source IPs when appropriate.
+6. Continue monitoring for recurring authentication anomalies.
